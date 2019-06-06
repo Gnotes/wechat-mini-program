@@ -54,7 +54,7 @@
 
 ## Page实例
 
-> 注册小程序中的一个页面，其指定页面的初始数据、生命周期回调、事件处理函数等，[详细说明](https://developers.weixin.qq.com/miniprogram/dev/reference/api/Page.html)
+> 注册小程序中的一个页面，其指定页面的初始数据、生命周期回调、事件处理函数等，[生命周期图谱](https://developers.weixin.qq.com/miniprogram/dev/framework/app-service/page-life-cycle.html) | [详细说明](https://developers.weixin.qq.com/miniprogram/dev/reference/api/Page.html)
 
 | 属性 | 类型 | 默认值 | 必填 | 说明 |
 | --- | --- | --- | --- | --- |
