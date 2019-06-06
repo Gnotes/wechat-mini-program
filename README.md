@@ -10,6 +10,7 @@
 - [自定义组件](#自定义组件)
 - [路由导航](#路由导航)
 - [API约定](#API约定)
+- [事件](#事件)
 
 ## 项目代码组成
 
@@ -106,3 +107,9 @@
 ① `on` 开头的 API 用来监听某个事件是否触发  
 ② 以 `Sync` 结尾的 API 都是同步 API  
 ③ 大多异步 API 接口通常都接受一个 Object 类型的参数，包含：`success`、`fail`、`complete`
+
+## 事件
+
+> 事件分为 **冒泡事件**和**非冒泡事件**，bind事件绑定不会阻止冒泡事件向上冒泡，catch事件绑定可以阻止冒泡事件向上冒泡。 [详细说明](https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxml/event.html)
+
+> 自基础库版本 **1.5.0** 起，在 **非原生组件** 中，bind和catch后可以紧跟一个冒号，其含义不变，如bind:tap，catch:tap
